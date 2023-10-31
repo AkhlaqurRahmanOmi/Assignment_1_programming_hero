@@ -1,0 +1,137 @@
+.body{
+    margin: 20px ;
+}
+.header{
+    height: 500px;
+    background-color: #E55473;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.10)
+}
+.card{
+    width: 40%;
+    height: 80%;
+    /* border: royalblue solid 2px; */
+    margin-top: 10px;
+    padding: 10px;
+}
+.tittle-text{
+    font-family: Lato; 
+    font-weight: 800; 
+    word-wrap: break-word
+}
+.tittle-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.descripton{
+    font-family: Lato; 
+    font-weight: 400; 
+    line-height: 30px; 
+    word-wrap: break-word;
+}
+.btn{
+    background-color: #E55473;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+}
+.featured{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.product-container{
+    
+    padding: 10px;
+    /* border: royalblue solid 2px; */
+    
+}
+.flower-card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* border: solid red 2px; */
+    align-items: center;
+    text-decoration: underline;
+    padding: 10px;
+}
+.product-card{
+    display: flex;
+    flex-direction: row;
+}
+.product{
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+.offer-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.offer{
+    width: 80%;
+    height: 320px;
+    background-color: #272727;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.service-card{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red 2px; */
+    margin:auto auto;   
+}
+.hot-deal{
+    height: 420px;
+    background-color: #E55473;
+    background: rgba(229, 84, 115, 0.05); 
+    border-radius: 8px
+}
+#red-text{
+    color: #E55473;;
+}
+#latest-deal{
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#search-box{
+    width: 500px; 
+    height: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+.input-detail{
+    display: flex;
+    flex-direction: row;
+}
+#footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#white-text{
+    color: white;
+}
+.last{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
